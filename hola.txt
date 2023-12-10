@@ -1,0 +1,126 @@
+#estilo de barra de navegacion 2 
+
+nav {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+/* Estilos para los botones de la barra de navegación */
+nav button {
+    font-family: 'Times New Roman', serif; /* Fuente Times New Roman */
+    font-size: 20px; /* Tamaño de texto más grande */
+    color: #2c3e50; /* Color de texto original */
+    background-color: #ecf0f1; /* Color de fondo original */
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Cambios al pasar el cursor sobre los botones */
+nav button:hover {
+    background-color: #3498db; /* Nuevo color de fondo al pasar el cursor */
+    color: #ffffff; /* Nuevo color de texto al pasar el cursor */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /* Nueva sombra al pasar el cursor */
+}
+
+no quites el marco que vaya una al lado de la otra como si fuera una galeria de fotos que se va dezplazando lentamen, deja el marco para que todas las imagenes tengan el mismo tamaño y deja los estilos que tenia el css anterior, para que quede el boton de ver mas con sombra y de color azul
+
+
+
+
+
+#productos {
+    max-width: 800px;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.producto {
+    width: 300px;
+    margin: 0 1em 1em 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+}
+
+.producto img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.precio {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0.5em;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: white;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav {
+    background-color: #333333;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    padding: 14px 35px;
+
+    margin-right: 30px;
+}
+
+
+nav a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+button:hover {
+
+    background-color: black;
+    /* Nuevo color de fondo al pasar el cursor */
+    color: white;
+    /* Nuevo color de texto al pasar el cursor */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    /* Nueva sombra al pasar el cursor */
+
+}
